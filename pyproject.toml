@@ -1,0 +1,29 @@
+[project]
+name = "quip-pd"
+version = "0.1.0"
+description = "A DataFrame-like library for Quip spreadsheets with sync, lock, and cell management features."
+authors = [
+    {name = "Saurabh",email = "saurabhkoshatwar1996@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests (>=2.32.4,<3.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "notebook (>=7.4.3,<8.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "quip-pd"
+version = "0.1.0"
+description = "A DataFrame-like library for Quip spreadsheets with sync, lock, and cell management features."
+authors = [""]
+
+[tool.poetry.dependencies]
+python = "^3.9"
